@@ -16,6 +16,7 @@ var loginRequest = {
 };
 
 var oauth2 = new OAuth2({authConfig: authConfig});
+oauth2.debug = true;
 oauth2.requestAccessToken(
     loginRequest,
     function(accessToken) {
