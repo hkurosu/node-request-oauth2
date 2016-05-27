@@ -1,0 +1,29 @@
+{
+  "name": "node-request-oauth2",
+  "version": "0.0.1",
+  "description": "OAuth 2.0 authentication for Node.js request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkurosu/node-request-oauth2.git"
+  },
+  "keywords": [
+    "node.js",
+    "request",
+    "oauth2",
+    "authentication"
+  ],
+  "author": "Hiro Kurosu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hkurosu/node-request-oauth2/issues"
+  },
+  "homepage": "https://github.com/hkurosu/node-request-oauth2#readme",
+  "dependencies": {
+    "request": "^2.72.0",
+    "util": "^0.10.3"
+  }
+}
